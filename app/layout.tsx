@@ -13,7 +13,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} antialiased bg-lavender`}>
           <div className="min-h-screen min-w-screen place-content-center">
-            <div className={`${inter.className} flex-grow w-3/5 h-9/12 m-auto p-12 overflow-y-auto border-black border-[3px] bg-white rounded-2xl`}>{children}</div>
+            <div className={`${inter.className} md:w-3/5 sm:w-4/5 max-w-screen sm:h-9/12 sm:m-auto sm:mt-5 sm:mb-5 m-5 p-12 border-black border-[3px] bg-white rounded-2xl`}>{children}</div>
           </div>
       </body>
     </html>
